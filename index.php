@@ -60,7 +60,10 @@
                         <a href="#">Categories</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#">About</a>
+                        <a href="#">Login</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#">Register</a>
                     </li>
                 </ul>
             </div>
@@ -115,7 +118,7 @@
                     <div class="offer">
                         <div class="row offer-row">
                             <!-- offer description -->
-                            <div class="col-lg-10">
+                            <div class="col-lg-10 offer-row-div">
                                 <div class="offer-middle">
                                     <a class="offer-title" href="#">Sample offer title goes here
                                     </a>
@@ -131,7 +134,7 @@
                                 </div>
                             </div>
                             <!-- offer joined -->
-                            <div class="col-lg-2 offer-joined offer-end">
+                            <div class="col-lg-2 offer-row-div offer-joined offer-end">
                                 <div class="">
                                     <p class="offer-count-head">92</p>
                                     <p class="offer-out-of">out of</p>
@@ -143,7 +146,7 @@
                     <div class="offer">
                         <div class="row offer-row">
                             <!-- offer description -->
-                            <div class="col-lg-10">
+                            <div class="col-lg-10 offer-row-div">
                                 <div class="offer-middle">
                                     <a class="offer-title" href="#">Sample offer title goes here
                                     </a>
@@ -159,7 +162,7 @@
                                 </div>
                             </div>
                             <!-- offer joined -->
-                            <div class="col-lg-2 offer-joined offer-begin">
+                            <div class="col-lg-2 offer-row-div offer-joined offer-begin">
                                 <div class="">
                                     <p class="offer-count-head">2</p>
                                     <p class="offer-out-of">out of</p>
@@ -171,7 +174,7 @@
                     <div class="offer">
                         <div class="row offer-row">
                             <!-- offer description -->
-                            <div class="col-lg-10">
+                            <div class="col-lg-10 offer-row-div">
                                 <div class="offer-middle">
                                     <a class="offer-title" href="#">Sample offer title goes here
                                     </a>
@@ -187,7 +190,7 @@
                                 </div>
                             </div>
                             <!-- offer joined -->
-                            <div class="col-lg-2 offer-joined offer-begin">
+                            <div class="col-lg-2 offer-row-div offer-joined offer-begin">
                                 <div class="">
                                     <p class="offer-count-head">2</p>
                                     <p class="offer-out-of">out of</p>
@@ -199,7 +202,7 @@
                     <div class="offer">
                         <div class="row offer-row">
                             <!-- offer description -->
-                            <div class="col-lg-10">
+                            <div class="col-lg-10 offer-row-div">
                                 <div class="offer-middle">
                                     <a class="offer-title" href="#">Sample offer title goes here
                                     </a>
@@ -215,7 +218,7 @@
                                 </div>
                             </div>
                             <!-- offer joined -->
-                            <div class="col-lg-2 offer-joined offer-begin">
+                            <div class="col-lg-2 offer-row-div offer-joined offer-begin">
                                 <div class="">
                                     <p class="offer-count-head">2</p>
                                     <p class="offer-out-of">out of</p>
@@ -227,7 +230,7 @@
                     <div class="offer">
                         <div class="row offer-row">
                             <!-- offer description -->
-                            <div class="col-lg-10">
+                            <div class="col-lg-10 offer-row-div">
                                 <div class="offer-middle">
                                     <a class="offer-title" href="#">Sample offer title goes here
                                     </a>
@@ -243,7 +246,7 @@
                                 </div>
                             </div>
                             <!-- offer joined -->
-                            <div class="col-lg-2 offer-joined offer-end">
+                            <div class="col-lg-2 offer-row-div offer-joined offer-end">
                                 <div class="">
                                     <p class="offer-count-head">92</p>
                                     <p class="offer-out-of">out of</p>

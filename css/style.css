@@ -503,7 +503,7 @@ footer .footer-below {
     height: 100%;
 }
 
-.offer-row > div{
+.offer-row-div{
     height: 100%;
     padding:20px;
 }
@@ -604,4 +604,73 @@ footer .footer-below {
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
+}
+
+.offer-post{
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.offer-post-joined{
+    background-color: #DA4E4E;
+    border-radius: 5px;
+    text-transform: uppercase;padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.offer-post-joined-row{
+    padding: 0;
+    padding-left: 15px;
+}
+
+.offer-post-title{
+    font-size: 2em;
+}
+
+.img-joiner{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.offer-joiners{
+    padding-top: 15px;
+}
+
+.offer-joiners-list{
+    height: 55px;
+}
+
+.view-joiners{
+    text-align: left;
+}
+
+.img-joiner-view{
+    max-width: 70%;
+}
+
+.offer-joiner-name{
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: left;
+    padding-left: 0px;
+}
+
+.view-left{
+    padding-right: 0px;
+}
+
+.list-inline li{
+    height:100px;
+}
+
+.offer-joiner-loc{
+    text-align: left;
+}
+
+.remove-left{
+    padding-left: 0px;
 }
