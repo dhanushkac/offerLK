@@ -33,7 +33,7 @@ class User{
     }
 
     public function create($fields =array()){
-        if(!$this->_db->insert('user',$fields)){
+        if(!$this->_db->insert('User_detail',$fields)){
             throw new Exception('There was a problem creating an account.');
         }
     }
@@ -41,7 +41,7 @@ class User{
     public function login($email = null, $password = null){
         $user = $this->find($email);
         if($user){
-            if($this->data()->password === Hash::make($password)){
+            if($this->data()->Password === Hash::make($password)){
                 Session::put($this->_sessionName,$this->data()->user_id);
                 return true;
             }
@@ -51,8 +51,8 @@ class User{
 
     public function find($user = null){
         if($user){
-            $field = (is_numeric($user)) ? 'user_id': 'email';
-            $data = $this->_db->get('user',array($field,'=',$user));
+            $field = (is_numeric($user)) ? 'User_ID': 'Email_address';
+            $data = $this->_db->get('user_detail',array($field,'=',$user));
             if($data->count()){
                 $this->_data = $data->first();
                 return true;

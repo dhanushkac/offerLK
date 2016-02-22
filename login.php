@@ -12,17 +12,17 @@ if(Input::exists()){
     if(Token::check(Input::get('token'))) {
         $validate = new Validation();
         $validation = $validate->check($_POST, array(
-            'email' => array(
+            'Email_address' => array(
                 'required' => true
             ),
-            'password' => array(
+            'Password' => array(
                 'required' => true
             )
         ));
         if ($validation->passed()) {
             //login user
             $user = new User();
-            $login = $user->login(Input::get('email'), Input::get('password'));
+            $login = $user->login(Input::get('Email_address'), Input::get('Password'));
             if($login){
                 Redirect::to('index.php');
             }else{
@@ -39,6 +39,7 @@ if(Input::exists()){
         }
     }
 }
+
 ?>
 <form action="" method="post">
     <div>
@@ -47,11 +48,11 @@ if(Input::exists()){
 
     <div>
         <label>Email</label><br>
-        <input name="email"  placeholder="Enter your e-mail">
+        <input name="Email_address"  placeholder="Enter your e-mail">
     </div>
     <div>
         <label>Password</label><br>
-        <input type="password" name="password" placeholder="Enter password">
+        <input type="password" name="Password" placeholder="Enter password">
     </div>
     <input type="hidden" name="token" value="<?php echo Token::generate();?>">
     <input type="submit" value="Sign In">

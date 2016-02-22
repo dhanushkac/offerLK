@@ -60,10 +60,10 @@
                         <a href="#">Categories</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#">Login</a>
+                        <a href="login.php">Login</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#">Register</a>
+                        <a href="register.php">Register</a>
                     </li>
                 </ul>
             </div>
