@@ -13,27 +13,27 @@ if(Input::exists()){
     if(Token::check(Input::get('token'))) {
         $validate = new Validation();
         $validation = $validate->check($_POST, array(
-            'email' => array(
+            'Email_address' => array(
                 'required' => true,
-                'unique' => 'user' //table name
+                'unique' => 'user_detail' //table name
             ),
-            'password' => array(
+            'Password' => array(
                 'required' => true,
                 'min' => 6
             ),
             're-password' => array(
                 'required' => true,
-                'matches' => 'password'
+                'matches' => 'Password'
             )
         ));
         if ($validation->passed()) {
-            echo 'passed';
             //register user
             $user = new User();
             try{
                 $user->create(array(
-                     'email' => Input::get('email'),
-                     'password' => Hash::make(Input::get('password'))
+                     'Email_address' => Input::get('Email_address'),
+                     'Password' => Hash::make(Input::get('Password'))
+                    //other data
                     ));
 
                 echo 'registration sucessfull';
@@ -61,15 +61,31 @@ if(Input::exists()){
 
     <div>
         <label>Email</label><br>
-        <input type="email" name="email"  placeholder="Enter your e-mail">
+        <input type="email" name="Email_address"  placeholder="Enter your e-mail">
     </div>
     <div>
         <label>Password</label><br>
-        <input type="password" name="password" placeholder="Enter password">
+        <input type="password" name="Password" placeholder="Enter password">
     </div>
     <div>
         <label>Re-Password</label><br>
-        <input type="password" name="re-password" placeholder="Enter password">
+        <input type="password" name="re-password" >
+    </div>
+    <div>
+        <label>Credit Card Number</label><br>
+        <input type="text" name="credit_card_number">
+    </div>
+    <div>
+        <label>First Name</label><br>
+        <input type="text" name="First_name">
+    </div>
+    <div>
+        <label>Last name</label><br>
+        <input type="text" name="Last_name">
+    </div>
+    <div>
+        <label>Contact Number</label><br>
+        <input type="text" name="Contact" >
     </div>
 
     <input type="hidden" name="token" value="<?php echo Token::generate();?>">
