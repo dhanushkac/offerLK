@@ -78,11 +78,11 @@
             <!-- left side bar -->
             <div class="col-lg-3 left-block">
                 <!-- ending soon -->
-                <p class="fragment-title">Ending Soon</p>
+                <div class="fragment-title">Ending Soon</div>
                 <div class="offer-fragment-block">
                     <div class="offer-fragment">
                         <p class="offer-fragment-title">Sample offer title goes here </p>
-                        <a href="#" class="link-normal">view more</a>
+                        <a href="#" class="btn btn-sm btn-primary">view offer</a>
 
                     </div>
                     <div class="offer-fragment-bottom">
@@ -93,7 +93,7 @@
                 <div class="offer-fragment-block">
                     <div class="offer-fragment">
                         <p class="offer-fragment-title">Sample offer title goes here </p>
-                        <a href="#" class="link-normal">view more</a>
+                        <a href="#" class="btn btn-sm btn-primary">view offer</a>
 
                     </div>
                     <div class="offer-fragment-bottom">
@@ -104,7 +104,7 @@
                 <div class="offer-fragment-block">
                     <div class="offer-fragment">
                         <p class="offer-fragment-title">Sample offer title goes here </p>
-                        <a href="#" class="link-normal">view more</a>
+                        <a href="#" class="btn btn-sm btn-primary">view offer</a>
 
                     </div>
                     <div class="offer-fragment-bottom">
@@ -126,6 +126,17 @@
                                 <div class="offer-middle offer-desc">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum
                                         arcu augue, non convallis sem euismod ut.. <a href="#" class="link-small">view more</a> </p>
+                                </div>
+                                <div class="row similar">
+                                    <div class="badge">
+                                        sample text
+                                    </div>
+                                    <div class="badge">
+                                        sample text
+                                    </div>
+                                    <div class="badge">
+                                        sample text
+                                    </div>
                                 </div>
                                 <div class="offer-btn offer-middle">
                                     <a href="#" class="btn btn-sm btn-outline">
@@ -155,6 +166,56 @@
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum
                                         arcu augue, non convallis sem euismod ut..<a href="#" class="link-small">view more</a></p>
                                 </div>
+                                <div class="row similar">
+                                    <div class="badge">
+                                        sample text
+                                    </div>
+                                    <div class="badge">
+                                        sample text
+                                    </div>
+                                    <div class="badge">
+                                        sample text
+                                    </div>
+                                </div>
+                                <div class="offer-btn offer-middle">
+                                    <a href="#" class="btn btn-sm btn-outline">
+                                        <i class="fa fa-plus"></i> Join this offer
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- offer joined -->
+                            <div class="col-lg-2 offer-row-div offer-joined offer-end">
+                                <div class="">
+                                    <p class="offer-count-head">92</p>
+                                    <p class="offer-out-of">out of</p>
+                                    <p class="offer-count-bottom">100</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer">
+                        <div class="row offer-row">
+                            <!-- offer description -->
+                            <div class="col-lg-10 offer-row-div">
+                                <div class="offer-middle">
+                                    <a class="offer-title" href="#">Sample offer title goes here
+                                    </a>
+                                </div>
+                                <div class="offer-middle offer-desc">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum
+                                        arcu augue, non convallis sem euismod ut..<a href="#" class="link-small">view more</a></p>
+                                </div>
+                                <div class="row similar">
+                                    <div class="badge">
+                                        sample text
+                                    </div>
+                                    <div class="badge">
+                                        sample text
+                                    </div>
+                                    <div class="badge">
+                                        sample text
+                                    </div>
+                                </div>
                                 <div class="offer-btn offer-middle">
                                     <a href="#" class="btn btn-sm btn-outline">
                                         <i class="fa fa-plus"></i> Join this offer
@@ -183,33 +244,16 @@
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum
                                         arcu augue, non convallis sem euismod ut..<a href="#" class="link-small">view more</a></p>
                                 </div>
-                                <div class="offer-btn offer-middle">
-                                    <a href="#" class="btn btn-sm btn-outline">
-                                        <i class="fa fa-plus"></i> Join this offer
-                                    </a>
-                                </div>
-                            </div>
-                            <!-- offer joined -->
-                            <div class="col-lg-2 offer-row-div offer-joined offer-begin">
-                                <div class="">
-                                    <p class="offer-count-head">2</p>
-                                    <p class="offer-out-of">out of</p>
-                                    <p class="offer-count-bottom">10</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="offer">
-                        <div class="row offer-row">
-                            <!-- offer description -->
-                            <div class="col-lg-10 offer-row-div">
-                                <div class="offer-middle">
-                                    <a class="offer-title" href="#">Sample offer title goes here
-                                    </a>
-                                </div>
-                                <div class="offer-middle offer-desc">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum
-                                        arcu augue, non convallis sem euismod ut..<a href="#" class="link-small">view more</a></p>
+                                <div class="row similar">
+                                    <div class="badge">
+                                        sample text
+                                    </div>
+                                    <div class="badge">
+                                        sample text
+                                    </div>
+                                    <div class="badge">
+                                        sample text
+                                    </div>
                                 </div>
                                 <div class="offer-btn offer-middle">
                                     <a href="#" class="btn btn-sm btn-outline">
@@ -238,6 +282,95 @@
                                 <div class="offer-middle offer-desc">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum
                                         arcu augue, non convallis sem euismod ut..<a href="#" class="link-small">view more</a></p>
+                                </div>
+                                <div class="row similar">
+                                    <div class="badge">
+                                        sample text
+                                    </div>
+                                    <div class="badge">
+                                        sample text
+                                    </div>
+                                    <div class="badge">
+                                        sample text
+                                    </div>
+                                </div>
+                                <div class="offer-btn offer-middle">
+                                    <a href="#" class="btn btn-sm btn-outline">
+                                        <i class="fa fa-plus"></i> Join this offer
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- offer joined -->
+                            <div class="col-lg-2 offer-row-div offer-joined offer-begin">
+                                <div class="">
+                                    <p class="offer-count-head">2</p>
+                                    <p class="offer-out-of">out of</p>
+                                    <p class="offer-count-bottom">10</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer">
+                        <div class="row offer-row">
+                            <!-- offer description -->
+                            <div class="col-lg-10 offer-row-div">
+                                <div class="offer-middle">
+                                    <a class="offer-title" href="#">Sample offer title goes here
+                                    </a>
+                                </div>
+                                <div class="offer-middle offer-desc">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum
+                                        arcu augue, non convallis sem euismod ut..<a href="#" class="link-small">view more</a></p>
+                                </div>
+                                <div class="row similar">
+                                    <div class="badge">
+                                        sample text
+                                    </div>
+                                    <div class="badge">
+                                        sample text
+                                    </div>
+                                    <div class="badge">
+                                        sample text
+                                    </div>
+                                </div>
+                                <div class="offer-btn offer-middle">
+                                    <a href="#" class="btn btn-sm btn-outline">
+                                        <i class="fa fa-plus"></i> Join this offer
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- offer joined -->
+                            <div class="col-lg-2 offer-row-div offer-joined offer-begin">
+                                <div class="">
+                                    <p class="offer-count-head">2</p>
+                                    <p class="offer-out-of">out of</p>
+                                    <p class="offer-count-bottom">10</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer">
+                        <div class="row offer-row">
+                            <!-- offer description -->
+                            <div class="col-lg-10 offer-row-div">
+                                <div class="offer-middle">
+                                    <a class="offer-title" href="#">Sample offer title goes here
+                                    </a>
+                                </div>
+                                <div class="offer-middle offer-desc">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum
+                                        arcu augue, non convallis sem euismod ut..<a href="#" class="link-small">view more</a></p>
+                                </div>
+                                <div class="row similar">
+                                    <div class="badge">
+                                        sample text
+                                    </div>
+                                    <div class="badge">
+                                        sample text
+                                    </div>
+                                    <div class="badge">
+                                        sample text
+                                    </div>
                                 </div>
                                 <div class="offer-btn offer-middle">
                                     <a href="#" class="btn btn-sm btn-outline">
