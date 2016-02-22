@@ -109,6 +109,17 @@
                                     scelerisque. Morbi sagittis congue felis, ut facilisis sapien fermentum a. Donec non mi aliquam,
                                     pellentesque elit id, fermentum leo.</p>
                             </div>
+                        <div class="row similar">
+                            <div class="badge">
+                                sample text
+                            </div>
+                            <div class="badge">
+                                sample text
+                            </div>
+                            <div class="badge">
+                                sample text
+                            </div>
+                        </div>
                             <div class="offer-btn offer-middle row">
                                 <div class="col-lg-3">
                                     <a href="#" class="btn btn-sm btn-outline">
@@ -151,6 +162,258 @@
                 </div>
 
             </div>
+
+            <!-- similar offers -->
+            <div class="similar-offers">
+                <div class="text-uppercase">Similar offers</div><br>
+                <div class="row">
+                    <!-- similar offers left side -->
+                    <div class="col-lg-6">
+                        <div class="offer">
+                            <div class="row offer-row">
+                                <!-- offer description -->
+                                <div class="col-lg-12 offer-row-div">
+                                    <div class="offer-middle">
+                                        <a class="offer-title" href="#">Sample offer title goes here
+                                        </a>
+                                    </div>
+                                    <div class="similar-offer-count danger text-uppercase similar">
+                                        32 out of 60
+                                    </div>
+                                    <div class="offer-middle offer-desc">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum
+                                            arcu augue, non convallis sem euismod ut...</p>
+                                    </div>
+                                    <div class="row similar">
+                                        <div class="badge">
+                                            sample text
+                                        </div>
+                                        <div class="badge">
+                                            sample text
+                                        </div>
+                                        <div class="badge">
+                                            sample text
+                                        </div>
+                                    </div>
+                                    <div class="row similar padding-top-10">
+                                        <div class="col-lg-5 offer-btn offer-middle padding-left-0">
+                                            <a href="#" class="btn btn-sm btn-outline">
+                                                view this offer
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- similar offers right side -->
+                    <div class="col-lg-6">
+                        <div class="offer">
+                            <div class="row offer-row">
+                                <!-- offer description -->
+                                <div class="col-lg-12 offer-row-div">
+                                    <div class="offer-middle">
+                                        <a class="offer-title" href="#">Sample offer title goes here
+                                        </a>
+                                    </div>
+                                    <div class="similar-offer-count text-uppercase similar">
+                                        1 out of 10
+                                    </div>
+                                    <div class="offer-middle offer-desc">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum
+                                            arcu augue, non convallis sem euismod ut...</p>
+                                    </div>
+                                    <div class="row similar">
+                                        <div class="badge">
+                                            sample text
+                                        </div>
+                                        <div class="badge">
+                                            sample text
+                                        </div>
+                                        <div class="badge">
+                                            sample text
+                                        </div>
+                                    </div>
+                                    <div class="row similar padding-top-10">
+                                        <div class="col-lg-5 offer-btn offer-middle padding-left-0">
+                                            <a href="#" class="btn btn-sm btn-outline">
+                                                view this offer
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- similar offers left side -->
+                    <div class="col-lg-6">
+                        <div class="offer">
+                            <div class="row offer-row">
+                                <!-- offer description -->
+                                <div class="col-lg-12 offer-row-div">
+                                    <div class="offer-middle">
+                                        <a class="offer-title" href="#">Sample offer title goes here
+                                        </a>
+                                    </div>
+                                    <div class="similar-offer-count danger text-uppercase similar">
+                                        32 out of 60
+                                    </div>
+                                    <div class="offer-middle offer-desc">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum
+                                            arcu augue, non convallis sem euismod ut...</p>
+                                    </div>
+                                    <div class="row similar">
+                                        <div class="badge">
+                                            sample text
+                                        </div>
+                                        <div class="badge">
+                                            sample text
+                                        </div>
+                                        <div class="badge">
+                                            sample text
+                                        </div>
+                                    </div>
+                                    <div class="row similar padding-top-10">
+                                        <div class="col-lg-5 offer-btn offer-middle padding-left-0">
+                                            <a href="#" class="btn btn-sm btn-outline">
+                                                view this offer
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- similar offers right side -->
+                    <div class="col-lg-6">
+                        <div class="offer">
+                            <div class="row offer-row">
+                                <!-- offer description -->
+                                <div class="col-lg-12 offer-row-div">
+                                    <div class="offer-middle">
+                                        <a class="offer-title" href="#">Sample offer title goes here
+                                        </a>
+                                    </div>
+                                    <div class="similar-offer-count danger text-uppercase similar">
+                                        32 out of 60
+                                    </div>
+                                    <div class="offer-middle offer-desc">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum
+                                            arcu augue, non convallis sem euismod ut...</p>
+                                    </div>
+                                    <div class="row similar">
+                                        <div class="badge">
+                                            sample text
+                                        </div>
+                                        <div class="badge">
+                                            sample text
+                                        </div>
+                                        <div class="badge">
+                                            sample text
+                                        </div>
+                                    </div>
+                                    <div class="row similar padding-top-10">
+                                        <div class="col-lg-5 offer-btn offer-middle padding-left-0">
+                                            <a href="#" class="btn btn-sm btn-outline">
+                                                view this offer
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- similar offers left side -->
+                    <div class="col-lg-6">
+                        <div class="offer">
+                            <div class="row offer-row">
+                                <!-- offer description -->
+                                <div class="col-lg-12 offer-row-div">
+                                    <div class="offer-middle">
+                                        <a class="offer-title" href="#">Sample offer title goes here
+                                        </a>
+                                    </div>
+                                    <div class="similar-offer-count danger text-uppercase similar">
+                                        17 out of 20
+                                    </div>
+                                    <div class="offer-middle offer-desc">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum
+                                            arcu augue, non convallis sem euismod ut...</p>
+                                    </div>
+                                    <div class="row similar">
+                                        <div class="badge">
+                                            sample text
+                                        </div>
+                                        <div class="badge">
+                                            sample text
+                                        </div>
+                                        <div class="badge">
+                                            sample text
+                                        </div>
+                                    </div>
+                                    <div class="row similar padding-top-10">
+                                        <div class="col-lg-5 offer-btn offer-middle padding-left-0">
+                                            <a href="#" class="btn btn-sm btn-outline">
+                                                view this offer
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- similar offers right side -->
+                    <div class="col-lg-6">
+                        <div class="offer">
+                            <div class="row offer-row">
+                                <!-- offer description -->
+                                <div class="col-lg-12 offer-row-div">
+                                    <div class="offer-middle">
+                                        <a class="offer-title" href="#">Sample offer title goes here
+                                        </a>
+                                    </div>
+                                    <div class="similar-offer-count text-uppercase similar">
+                                        4 out of 10
+                                    </div>
+                                    <div class="offer-middle offer-desc">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum
+                                            arcu augue, non convallis sem euismod ut...</p>
+                                    </div>
+                                    <div class="row similar">
+                                        <div class="badge">
+                                            sample text
+                                        </div>
+                                        <div class="badge">
+                                            sample text
+                                        </div>
+                                        <div class="badge">
+                                            sample text
+                                        </div>
+                                    </div>
+                                    <div class="row similar padding-top-10">
+                                        <div class="col-lg-5 offer-btn offer-middle padding-left-0">
+                                            <a href="#" class="btn btn-sm btn-outline">
+                                                view this offer
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
         <!-- right side bar -->
         <div class="col-lg-3 right-block">
