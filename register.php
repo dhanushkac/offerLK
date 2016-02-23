@@ -32,11 +32,19 @@ if(Input::exists()){
             try{
                 $user->create(array(
                      'Email_address' => Input::get('Email_address'),
-                     'Password' => Hash::make(Input::get('Password'))
+                     'Password' => Hash::make(Input::get('Password')),
+                    'Type' => '',
+                    'First_name' => '',
+                    'Last_name' => '',
+                    'Address_no' => '',
+                    'Address_street' => '',
+                    'Address_city' => '',
+                    'credit_card_number' => 0,
+                    'Contact' => 0
                     //other data
                     ));
 
-                echo 'registration sucessfull';
+                echo 'registration successful';
                 Redirect::to('index.php');
             }catch (Exception $e){
                 die($e->getMessage());
