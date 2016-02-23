@@ -8,6 +8,16 @@
 
 require_once 'core/init.php';
 
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <?php require 'headerScripts.php'?>
+</head>
+<body id="page-top" class="index">
+<?php require 'navigationBar.php'?>
+<div class="main-block">
+    <?php
 
 if(Input::exists()){
     if(Token::check(Input::get('token'))) {
@@ -54,48 +64,74 @@ if(Input::exists()){
             $str = "";
             foreach ($validate->errors() as $error) {
                 $str .= $error;
-                $str .= '<br>';
-                //            $str .= '\n';
+                $str .= '\n';
             }
-            echo $str;
+            echo '<script type="text/javascript">alert("' . $str . '")</script>';
         }
     }
 }
 ?>
-<form action="" method="post">
-    <div>
-        <h3><strong>Sign up</strong></h3>
-    </div>
+<div class="col-lg-6 middle-content">
+    <div class="offers">
+        <div class="offer">
+            <div class="row offer-row">
+                <!-- offer description -->
+                <div class="col-lg-10 offer-row-div">
+                    <div class="offer-middle col-xs-offset-1">
+                        <a class="offer-title" href="#">Sign up
+                        </a>
+                    </div>
+<!--                    -->
+                    <div class="col-xs-offset-2">
+                    <form action="" method="post">
+                        <div>
+                            <h3><strong></strong></h3>
+                        </div>
 
-    <div>
-        <label>Email</label><br>
-        <input type="email" name="Email_address"  placeholder="Enter your e-mail">
-    </div>
-    <div>
-        <label>Password</label><br>
-        <input type="password" name="Password" placeholder="Enter password">
-    </div>
-    <div>
-        <label>Re-Password</label><br>
-        <input type="password" name="re-password" >
-    </div>
-    <div>
-        <label>Credit Card Number</label><br>
-        <input type="text" name="credit_card_number">
-    </div>
-    <div>
-        <label>First Name</label><br>
-        <input type="text" name="First_name">
-    </div>
-    <div>
-        <label>Last name</label><br>
-        <input type="text" name="Last_name">
-    </div>
-    <div>
-        <label>Contact Number</label><br>
-        <input type="text" name="Contact" >
-    </div>
+                        <div>
+                            <label>Email</label><br>
+                            <input class="form-control" type="email" name="Email_address"  placeholder="Enter your e-mail">
+                        </div>
+                        <div>
+                            <label>Password</label><br>
+                            <input class="form-control" type="password" name="Password" placeholder="Enter password">
+                        </div>
+                        <div>
+                            <label>Re-Password</label><br>
+                            <input class="form-control" type="password" name="re-password" >
+                        </div>
+                        <div>
+                            <label>Credit Card Number</label><br>
+                            <input class="form-control" type="text" name="credit_card_number">
+                        </div>
+                        <div>
+                            <label>First Name</label><br>
+                            <input class="form-control" type="text" name="First_name">
+                        </div>
+                        <div>
+                            <label>Last name</label><br>
+                            <input class="form-control" type="text" name="Last_name">
+                        </div>
+                        <div>
+                            <label>Contact Number</label><br>
+                            <input class="form-control" type="text" name="Contact" >
+                        </div>
+                        <br>
+                        <input type="hidden" name="token" value="<?php echo Token::generate();?>">
+                        <input class="btn btn-success col-xs-12" type="submit" value="Register">
+                    </form>
+                    </div>
+<!--                    -->
+                </div>
 
-    <input type="hidden" name="token" value="<?php echo Token::generate();?>">
-    <input type="submit" value="Register">
-</form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</div>
+<?php require 'footer.php'?>
+<?php require 'footerScripts.php'?>
+</body>
+</html>

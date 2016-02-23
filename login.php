@@ -37,7 +37,7 @@ if(Input::exists()){
             if($login){
                 Redirect::to('index.php');
             }else{
-                echo 'Login failed.Credentials does not match.';
+                echo '<script type="text/javascript">alert("Login failed.Credentials does not match.")</script>';
             }
             //
         } else {
@@ -79,7 +79,7 @@ if(Input::exists()){
                                 </div>
                                 <br>
                                 <input type="hidden" name="token" value="<?php echo Token::generate();?>">
-                                <input class="btn btn-success col-lg-12" type="submit" value="Sign In">
+                                <input class="btn btn-success col-xs-12" type="submit" value="Sign In">
                             </form>
                         </div>
 
