@@ -49,7 +49,7 @@ if(Input::exists()){
                     'Address_no' => '',
                     'Address_street' => '',
                     'Address_city' => '',
-                    'credit_card_number' => 0,
+                    'Credit_card_number' => 0,
                     'Contact' => 0
                     //other data
                     ));
@@ -102,7 +102,7 @@ if(Input::exists()){
                         </div>
                         <div>
                             <label>Credit Card Number</label><br>
-                            <input class="form-control" type="text" name="credit_card_number">
+                            <input class="form-control" type="text" name="Credit_card_number">
                         </div>
                         <div>
                             <label>First Name</label><br>

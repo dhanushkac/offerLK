@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 22, 2016 at 12:10 PM
+-- Generation Time: Feb 25, 2016 at 07:48 AM
 -- Server version: 5.6.26
 -- PHP Version: 5.6.12
 
@@ -105,20 +105,22 @@ CREATE TABLE IF NOT EXISTS `user_detail` (
   `Address_no` varchar(10) DEFAULT NULL,
   `Address_street` varchar(20) DEFAULT NULL,
   `Address_city` varchar(20) DEFAULT NULL,
-  `credit_card_number` int(11) DEFAULT NULL,
-  `Contact` int(11) DEFAULT NULL,
+  `Credit_card_number` int(16) DEFAULT NULL,
+  `Contact` int(10) DEFAULT NULL,
   `Email_address` varchar(30) NOT NULL,
-  `Password` varchar(64) DEFAULT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+  `Password` varchar(64) DEFAULT NULL,
+  `Acount_status` varchar(20) NOT NULL DEFAULT 'PENDING'
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `user_detail`
 --
 
-INSERT INTO `user_detail` (`User_ID`, `Type`, `First_name`, `Last_name`, `Address_no`, `Address_street`, `Address_city`, `credit_card_number`, `Contact`, `Email_address`, `Password`) VALUES
-(1, 'CUSTOMER', 'Lahiru', 'Rangitha', '123/4,', 'Wataddara', 'Veyangoda', 12312312, 332243532, 'lahirupathiranalr@gmail.com', '8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92'),
-(2, 'SELLER', 'Kamal', 'Perera', 'Abans', 'Kadawatha road', 'Kelaniya', 31323122, 31324234, 'abanskelaniya@gmail.com', '12345'),
-(3, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'pipi@gmail.com', 'bcb15f821479b4d5772bd0ca866c00ad5f926e3580720659cc80d39c9d09802a');
+INSERT INTO `user_detail` (`User_ID`, `Type`, `First_name`, `Last_name`, `Address_no`, `Address_street`, `Address_city`, `Credit_card_number`, `Contact`, `Email_address`, `Password`, `Acount_status`) VALUES
+(1, 'CUSTOMER', 'Lahiru', 'Rangitha', '123/4,', 'Wataddara', 'Veyangoda', 12312312, 332243532, 'lahirupathiranalr@gmail.com', '8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92', 'ACTIVE'),
+(2, 'SELLER', 'Kamal', 'Perera', 'Abans', 'Kadawatha road', 'Kelaniya', 31323122, 31324234, 'abanskelaniya@gmail.com', '8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92', 'PENDING'),
+(3, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'pipi@gmail.com', 'bcb15f821479b4d5772bd0ca866c00ad5f926e3580720659cc80d39c9d09802a', 'ACTIVE'),
+(4, '', '', '', '', '', '', 0, 0, 'danush@gmail.com', 'bcb15f821479b4d5772bd0ca866c00ad5f926e3580720659cc80d39c9d09802a', 'PENDING');
 
 --
 -- Indexes for dumped tables
@@ -187,7 +189,7 @@ ALTER TABLE `offer_spec`
 -- AUTO_INCREMENT for table `user_detail`
 --
 ALTER TABLE `user_detail`
-  MODIFY `User_ID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=4;
+  MODIFY `User_ID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=5;
 --
 -- Constraints for dumped tables
 --
