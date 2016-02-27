@@ -87,6 +87,30 @@ class DB {
         return false;
     }
 
+    public function update($table, $id,  $fields){
+        $set = '';
+        $x = 1;
+
+        foreach($fields as $name => $value){
+            $set .= "{$name} = ?";
+            if($x < count($fields)){
+                $set .= ', ';
+            }
+            $x++;
+        }
+        $sql = "UPDATE {$table} SET {$set} WHERE id = {$id}";
+
+        if(!$this->query($sql, $fields)->error()) {
+            return true;
+        }
+        return false;
+    }
+
+    public function  delete($table, $where)
+    {
+        return $this->action('DELETE ', $table, $where);
+    }
+
     public function get($table,$where){
         return $this->action('SELECT *',$table,$where);
     }

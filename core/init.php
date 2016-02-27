@@ -12,7 +12,7 @@ $GLOBALS['config'] = array(
         'host' => 'localhost',
         'username' => 'root',
         'password' => '',
-        'db' => 'testdb'
+        'db' => 'testprojectdb'
     ),
     'remember' => array(
         'cookie_name' => 'hash',
