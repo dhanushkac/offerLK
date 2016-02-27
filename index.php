@@ -22,6 +22,11 @@
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
+    <!-- sweet alert-->
+    <script src="js/sweetalert2.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/sweetalert2.css">
+
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -76,7 +81,7 @@
     <div class="main-block">
         <div class="row main-row">
             <!-- left side bar -->
-            <div class="col-lg-3 left-block">
+            <div class="col-lg-2 left-block">
                 <!-- ending soon -->
                 <div class="fragment-title">Ending Soon</div>
                 <div class="offer-fragment-block">
@@ -96,6 +101,7 @@
                         <a href="#" class="btn btn-sm btn-primary">view offer</a>
 
                     </div>
+
                     <div class="offer-fragment-bottom">
                         32 out of 50
                     </div>
@@ -113,7 +119,7 @@
                 </div>
             </div>
             <!-- content -->
-            <div class="col-lg-6 middle-content">
+            <div class="col-lg-7 middle-content">
                 <div class="offers">
                     <div class="offer">
                         <div class="row offer-row">
@@ -123,10 +129,16 @@
                                     <a class="offer-title" href="#">Sample offer title goes here
                                     </a>
                                 </div>
+                                <div class="offer-owner-home">by <a href="#" class="offer-shop">abans pvt. ltd.</a> on
+                                    <span class="offer-time">12 FEB 2016 09:34:12 AM</span>
+                                </div>
                                 <div class="offer-middle offer-desc">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum
                                         arcu augue, non convallis sem euismod ut.. <a href="#" class="link-small">view more</a> </p>
                                 </div>
+                                <div class="offer-owner-home">by <a href="#" class="offer-shop">abans pvt. ltd.</a> on
+                                    <span class="offer-time">12 FEB 2016 09:34:12 AM</span>
+                                </div>
                                 <div class="row similar">
                                     <div class="badge">
                                         sample text
@@ -138,10 +150,20 @@
                                         sample text
                                     </div>
                                 </div>
-                                <div class="offer-btn offer-middle">
-                                    <a href="#" class="btn btn-sm btn-outline">
-                                        <i class="fa fa-plus"></i> Join this offer
-                                    </a>
+
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="offer-btn offer-middle">
+                                            <a href="#" class="btn btn-sm btn-outline">
+                                                <i class="fa fa-plus"></i> Join this offer
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="offer-home-left">
+                                            <p>1d 12h 13m 12s left</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <!-- offer joined -->
@@ -162,6 +184,9 @@
                                     <a class="offer-title" href="#">Sample offer title goes here
                                     </a>
                                 </div>
+                                <div class="offer-owner-home">by <a href="#" class="offer-shop">abans pvt. ltd.</a> on
+                                    <span class="offer-time">12 FEB 2016 09:34:12 AM</span>
+                                </div>
                                 <div class="offer-middle offer-desc">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum
                                         arcu augue, non convallis sem euismod ut..<a href="#" class="link-small">view more</a></p>
@@ -177,10 +202,19 @@
                                         sample text
                                     </div>
                                 </div>
-                                <div class="offer-btn offer-middle">
-                                    <a href="#" class="btn btn-sm btn-outline">
-                                        <i class="fa fa-plus"></i> Join this offer
-                                    </a>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="offer-btn offer-middle">
+                                            <a href="#" class="btn btn-sm btn-outline">
+                                                <i class="fa fa-plus"></i> Join this offer
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="offer-home-left">
+                                            <p>0d 2h 13m 12s left</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <!-- offer joined -->
@@ -201,6 +235,111 @@
                                     <a class="offer-title" href="#">Sample offer title goes here
                                     </a>
                                 </div>
+                                <div class="offer-owner-home">by <a href="#" class="offer-shop">abans pvt. ltd.</a> on
+                                    <span class="offer-time">12 FEB 2016 09:34:12 AM</span>
+                                </div>
+                                <div class="offer-middle offer-desc">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum
+                                        arcu augue, non convallis sem euismod ut..<a href="#" class="link-small">view more</a></p>
+                                </div>
+                                <div class="row similar">
+                                    <div class="badge">
+                                        sample text
+                                    </div>
+                                    <div class="badge">
+                                        sample text
+                                    </div>
+                                    <div class="badge">
+                                        sample text
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="offer-btn offer-middle">
+                                            <a href="#" class="btn btn-sm btn-outline">
+                                                <i class="fa fa-plus"></i> Join this offer
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="offer-home-left">
+                                            <p>12d 5h 10m 12s left</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- offer joined -->
+                            <div class="col-lg-2 offer-row-div offer-joined offer-begin">
+                                <div class="">
+                                    <p class="offer-count-head">2</p>
+                                    <p class="offer-out-of">out of</p>
+                                    <p class="offer-count-bottom">10</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer">
+                        <div class="row offer-row">
+                            <!-- offer description -->
+                            <div class="col-lg-10 offer-row-div">
+                                <div class="offer-middle">
+                                    <a class="offer-title" href="#">Sample offer title goes here
+                                    </a>
+                                </div>
+                                <div class="offer-owner-home">by <a href="#" class="offer-shop">abans pvt. ltd.</a> on
+                                    <span class="offer-time">12 FEB 2016 09:34:12 AM</span>
+                                </div>
+                                <div class="offer-middle offer-desc">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum
+                                        arcu augue, non convallis sem euismod ut..<a href="#" class="link-small">view more</a></p>
+                                </div>
+                                <div class="row similar">
+                                    <div class="badge">
+                                        sample text
+                                    </div>
+                                    <div class="badge">
+                                        sample text
+                                    </div>
+                                    <div class="badge">
+                                        sample text
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="offer-btn offer-middle">
+                                            <a href="#" class="btn btn-sm btn-outline">
+                                                <i class="fa fa-plus"></i> Join this offer
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="offer-home-left">
+                                            <p>12d 5h 10m 12s left</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- offer joined -->
+                            <div class="col-lg-2 offer-row-div offer-joined offer-begin">
+                                <div class="">
+                                    <p class="offer-count-head">2</p>
+                                    <p class="offer-out-of">out of</p>
+                                    <p class="offer-count-bottom">10</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer">
+                        <div class="row offer-row">
+                            <!-- offer description -->
+                            <div class="col-lg-10 offer-row-div">
+                                <div class="offer-middle">
+                                    <a class="offer-title" href="#">Sample offer title goes here
+                                    </a>
+                                </div>
+                                <div class="offer-owner-home">by <a href="#" class="offer-shop">abans pvt. ltd.</a> on
+                                    <span class="offer-time">12 FEB 2016 09:34:12 AM</span>
+                                </div>
                                 <div class="offer-middle offer-desc">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum
                                         arcu augue, non convallis sem euismod ut..<a href="#" class="link-small">view more</a></p>
@@ -240,6 +379,9 @@
                                     <a class="offer-title" href="#">Sample offer title goes here
                                     </a>
                                 </div>
+                                <div class="offer-owner-home">by <a href="#" class="offer-shop">abans pvt. ltd.</a> on
+                                    <span class="offer-time">12 FEB 2016 09:34:12 AM</span>
+                                </div>
                                 <div class="offer-middle offer-desc">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum
                                         arcu augue, non convallis sem euismod ut..<a href="#" class="link-small">view more</a></p>
@@ -255,10 +397,19 @@
                                         sample text
                                     </div>
                                 </div>
-                                <div class="offer-btn offer-middle">
-                                    <a href="#" class="btn btn-sm btn-outline">
-                                        <i class="fa fa-plus"></i> Join this offer
-                                    </a>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="offer-btn offer-middle">
+                                            <a href="#" class="btn btn-sm btn-outline">
+                                                <i class="fa fa-plus"></i> Join this offer
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="offer-home-left">
+                                            <p>12d 5h 10m 12s left</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <!-- offer joined -->
@@ -279,44 +430,8 @@
                                     <a class="offer-title" href="#">Sample offer title goes here
                                     </a>
                                 </div>
-                                <div class="offer-middle offer-desc">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum
-                                        arcu augue, non convallis sem euismod ut..<a href="#" class="link-small">view more</a></p>
-                                </div>
-                                <div class="row similar">
-                                    <div class="badge">
-                                        sample text
-                                    </div>
-                                    <div class="badge">
-                                        sample text
-                                    </div>
-                                    <div class="badge">
-                                        sample text
-                                    </div>
-                                </div>
-                                <div class="offer-btn offer-middle">
-                                    <a href="#" class="btn btn-sm btn-outline">
-                                        <i class="fa fa-plus"></i> Join this offer
-                                    </a>
-                                </div>
-                            </div>
-                            <!-- offer joined -->
-                            <div class="col-lg-2 offer-row-div offer-joined offer-begin">
-                                <div class="">
-                                    <p class="offer-count-head">2</p>
-                                    <p class="offer-out-of">out of</p>
-                                    <p class="offer-count-bottom">10</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="offer">
-                        <div class="row offer-row">
-                            <!-- offer description -->
-                            <div class="col-lg-10 offer-row-div">
-                                <div class="offer-middle">
-                                    <a class="offer-title" href="#">Sample offer title goes here
-                                    </a>
+                                <div class="offer-owner-home">by <a href="#" class="offer-shop">abans pvt. ltd.</a> on
+                                    <span class="offer-time">12 FEB 2016 09:34:12 AM</span>
                                 </div>
                                 <div class="offer-middle offer-desc">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum
@@ -333,49 +448,19 @@
                                         sample text
                                     </div>
                                 </div>
-                                <div class="offer-btn offer-middle">
-                                    <a href="#" class="btn btn-sm btn-outline">
-                                        <i class="fa fa-plus"></i> Join this offer
-                                    </a>
-                                </div>
-                            </div>
-                            <!-- offer joined -->
-                            <div class="col-lg-2 offer-row-div offer-joined offer-begin">
-                                <div class="">
-                                    <p class="offer-count-head">2</p>
-                                    <p class="offer-out-of">out of</p>
-                                    <p class="offer-count-bottom">10</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="offer">
-                        <div class="row offer-row">
-                            <!-- offer description -->
-                            <div class="col-lg-10 offer-row-div">
-                                <div class="offer-middle">
-                                    <a class="offer-title" href="#">Sample offer title goes here
-                                    </a>
-                                </div>
-                                <div class="offer-middle offer-desc">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum
-                                        arcu augue, non convallis sem euismod ut..<a href="#" class="link-small">view more</a></p>
-                                </div>
-                                <div class="row similar">
-                                    <div class="badge">
-                                        sample text
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="offer-btn offer-middle">
+                                            <a href="#" class="btn btn-sm btn-outline">
+                                                <i class="fa fa-plus"></i> Join this offer
+                                            </a>
+                                        </div>
                                     </div>
-                                    <div class="badge">
-                                        sample text
+                                    <div class="col-lg-6">
+                                        <div class="offer-home-left">
+                                            <p>12d 5h 10m 12s left</p>
+                                        </div>
                                     </div>
-                                    <div class="badge">
-                                        sample text
-                                    </div>
-                                </div>
-                                <div class="offer-btn offer-middle">
-                                    <a href="#" class="btn btn-sm btn-outline">
-                                        <i class="fa fa-plus"></i> Join this offer
-                                    </a>
                                 </div>
                             </div>
                             <!-- offer joined -->

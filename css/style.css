@@ -509,7 +509,11 @@ footer .footer-below {
 }
 
 .offer-image{
-    max-width: 100%;
+
+}
+
+.offer-images{
+    margin-top: 20px;
 }
 
 .offer-title{
@@ -635,6 +639,9 @@ footer .footer-below {
 
 .offer-post-title{
     font-size: 2em;
+    font-weight: bold;
+    color: #18bc9c;
+    text-decoration: none;
 }
 
 .img-joiner{
@@ -718,4 +725,72 @@ footer .footer-below {
 
 .danger{
     background-color: #DA4E4E;
+}
+
+.offer-left{
+    text-align: center;
+    background-color: #18bc9c;
+    padding: 5px;
+    border-radius: 5px;
+    padding-top: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.get-width{
+    width: 95%;
+}
+
+.margin-top-15{
+    margin-top: 15px;
+}
+
+.offer-home-left{
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 25px;
+    font-size: 1em;
+}
+
+.offer-shop{
+    text-decoration: underline;
+}
+
+.remove-all{
+    margin: 0;
+    padding: 0;
+}
+
+.offer-owner-image > div:first-child{
+    margin-top: 7px;
+}
+
+.offer-post-title-div{
+    padding-left: 5px;
+}
+
+.offer-owner-home{
+    padding-left: 15px;
+    font-size: 0.8em;
+}
+
+.badges-padding{
+    padding-left: 0px;
+}
+
+.padding-right-10{
+    padding-right: 5px;
+    color: #DA4E4E;
+}
+
+.color-red{
+    color: #DA4E4E;
+}
+
+.color-red a{
+    color: #DA4E4E;
+}
+
+.cursor-pointer:hover{
+    cursor: pointer;
 }

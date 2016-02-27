@@ -22,6 +22,10 @@
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
+    <!-- sweet alert-->
+    <script src="js/sweetalert2.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/sweetalert2.css">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -76,25 +80,47 @@
 <div class="main-block">
     <div class="row main-row">
         <!-- content -->
-        <div class="col-lg-8 col-lg-offset-1 middle-content">
+        <div class="col-lg-8 col-lg-offset-2 middle-content">
             <div class="offers">
                 <div class="offer">
                     <div class="row offer-row offer-post">
                             <!-- offer description -->
                             <div class="row offer-post-joined-row">
                                 <div class="col-lg-9 offer-middle">
-                                    <a class="offer-title offer-post-title" href="#">Sample offer title goes here
-                                    </a>
+                                    <div class="row offer-owner-image">
+                                        <div class="col-lg-1 remove-all">
+                                            <img src="img/portfolio/safe.png" class="img-thumbnail">
+                                        </div>
+                                        <div class="col-lg-11 offer-post-title-div remove-all">
+                                            <div class="offer-post-title">Sample offer title goes here
+                                            </div>
+                                            <div>by <a href="#" class="offer-shop">abans pvt. ltd.</a> on
+                                                <span class="offer-time">12 FEB 2016 09:34:12 AM</span>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="col-lg-3">
+                                    <div>
+                                        <p style="font-size: 1em;text-align: center">5d 12h 13m 12s left</p>
+                                    </div>
                                     <div class="offer-post-joined">
                                         32 out of 60
                                     </div>
+
                                 </div>
                             </div>
                             <!-- offer image -->
-                            <div>
-
+                            <div class="row offer-images">
+                                <div class="col-lg-4">
+                                    <img src="img/portfolio/cabin.png" class="offer-image img-thumbnail">
+                                </div>
+                                <div class="col-lg-4">
+                                    <img src="img/portfolio/cake.png"  class="offer-image img-thumbnail">
+                                </div>
+                                <div class="col-lg-4">
+                                    <img src="img/portfolio/game.png" class="offer-image img-thumbnail">
+                                </div>
                             </div>
 
                             <!-- offer description -->
@@ -109,20 +135,22 @@
                                     scelerisque. Morbi sagittis congue felis, ut facilisis sapien fermentum a. Donec non mi aliquam,
                                     pellentesque elit id, fermentum leo.</p>
                             </div>
-                        <div class="row similar">
-                            <div class="badge">
-                                sample text
-                            </div>
-                            <div class="badge">
-                                sample text
-                            </div>
-                            <div class="badge">
-                                sample text
+                        <div class="row similar get-width">
+                            <div class="col-lg-8 badges-padding">
+                                <div class="badge">
+                                    sample text
+                                </div>
+                                <div class="badge">
+                                    sample text
+                                </div>
+                                <div class="badge">
+                                    sample text
+                                </div>
                             </div>
                         </div>
                             <div class="offer-btn offer-middle row">
                                 <div class="col-lg-3">
-                                    <a href="#" class="btn btn-sm btn-outline">
+                                    <a onclick="joinOffer()" class="btn btn-sm btn-outline cursor-pointer">
                                         <i class="fa fa-plus"></i> Join this offer
                                     </a>
 
@@ -155,9 +183,15 @@
                                     <div class="view-joiners">
                                         <a href="#view-joined-list" data-toggle="modal">View Joined List</a>
                                     </div>
+                                    <div>
+
+                                    </div>
                                 </div>
 
                             </div>
+                        <div class="pull-left similar color-red">
+                            <i class="fa fa-flag padding-right-10"></i><a class="cursor-pointer" onclick="reportOffer()">report offer</a>
+                        </div>
                     </div>
                 </div>
 
@@ -416,7 +450,7 @@
 
         </div>
         <!-- right side bar -->
-        <div class="col-lg-3 right-block">
+        <div class="col-lg-2 right-block">
 
         </div>
     </div>
